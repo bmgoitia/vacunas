@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Covid-19 | Vacunas</title>
+</head>
+
+<body>
+ 
+ <div id="mainContainer">
+
+  <div id="title">
+
+    <h3> Porcentaje de población vacunada </h3>
+    
+  </div>
+
+  <div id="selCA">
+    <div id="backArrow">
+      <img src="img/left-arrow24.png" alt="">
+      
+    </div>
+
+     <div class="selCont">
+        <select class="custom-select">
+          <option selected>Selecciona una C.A.</option>
+          <option class="caSel" value="AN">Andalucía</option>
+          <option class="caSel" value="AR">Aragón</option>
+          <option class="caSel" value="AS">Asturias</option>
+          <option class="caSel" value="IC">Canarias</option>
+          <option class="caSel" value="CN">Cantabria</option>
+          <option class="caSel" value="CM">Castilla-La Mancha</option>
+          <option class="caSel" value="CL">Castilla y León</option>
+          <option class="caSel" value="CT">Catalunya</option>
+          <option class="caSel" value="CV">Comunitat Valenciana</option>
+          <option class="caSel" value="EX">Extremadura</option>
+          <option class="caSel" value="GA">Galicia</option>
+          <option class="caSel" value="BA">Illes Balears</option>
+          <option class="caSel" value="LR">La Rioja</option>
+          <option class="caSel" value="MA">Madrid</option>
+          <option class="caSel" value="MU">Murcia</option>
+          <option class="caSel" value="NA">Navarra</option>
+          <option class="caSel" value="PV">País Vasco</option>
+        </select>
+      </div>
+    
+  </div>
+
+  <div id="changeCont">
+    <div id="dummy">
+
+          <div id="dummyModal">
+
+            <div class="dummyModalCont">
+              <div class="dummyModalClose">
+                  <span> X </span>
+              </div>
+
+              <div class="dummyModalBars">
+                <div id="vac1" class="dummyModalVacItem">
+                  <div class="dummyModalLogo"></div>
+                  <div class="dummyModalBar">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuemin="0" aria-valuemax="100"></div>
+
+                    </div>
+                  </div>
+                  
+                </div>
+
+
+                <div id="vac2" class="dummyModalVacItem">
+                  <div class="dummyModalLogo"></div>
+                  <div class="dummyModalBar">
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 0%; transition:none;"></div>
+
+                    </div>
+                  </div>
+                  
+                </div>
+
+
+                <div id="vac3" class="dummyModalVacItem">
+                  <div class="dummyModalLogo"></div>
+                  <div class="dummyModalBar">
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 0%;"></div>
+
+                    </div>
+                  </div>
+                  
+                </div>
+
+
+                <div id="vac4" class="dummyModalVacItem">
+                  <div class="dummyModalLogo"></div>
+                  <div class="dummyModalBar">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuemin="0" aria-valuemax="100"></div>
+
+                    </div>
+                  </div>
+                  
+                </div>
+
+
+                <div id="vac5" class="dummyModalVacItem">
+                  <div class="dummyModalLogo"></div>
+                  <div class="dummyModalBar">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuemin="0" aria-valuemax="100"></div>
+
+                    </div>
+                  </div>
+                  
+                </div>
+
+
+              </div>
+
+
+            </div>
+            
+          </div>
+
+          <div id="mainTitle" class="tabTitle">
+            <h3> </h3>
+          </div>
+
+          <div id="mainInfo" class="container">
+            <div class="row">
+                <div id="dummyIcon" class="col-7">
+                  <div class="interm">
+                     <!-- <object data="dummy.svg" type="image/svg+xml"></object> -->
+
+                     <svg id="sil" viewBox="0 0 270 550" xmlns="http://www.w3.org/2000/svg">
+                      <title>Silueta</title><metadata id="siluetaH">image/svg+xml</metadata>
+                      <g>
+                        <defs>
+                          <linearGradient id="statsPerc" x1="0" y1="1" x2="0" y2="0">
+                            <stop id="stop1" offset="0" stop-color="#364a5d"></stop>
+                            <stop id="stop2" offset="0" stop-color="#F2F7F7"/>
+                          </linearGradient>
+                        </defs>
+
+                        <path id="manSil" fill="url(#statsPerc)" d="m202.59053,369.918854l0,205.281219l-61.5,0l0,-204.531219l-14.5,0l0,204.531219l-61.5,0l0,-205.281219l0,-175.78125l-16.0625,0l0,151.0625l-41.5,0l0,-152.28125c0,-24.93454 20.565475,-52.28125 45.5,-52.28125l161.59375,0c25.404938,0 45.499985,28.876312 45.499985,54.28125l0,150.28125l-41.499985,0l0,-151.0625l-16.03125,0l0,175.78125zm-68.59375,-364.28125c-36.846008,0 -66.75,29.903992 -66.75,66.75c0,36.846008 29.904022,66.75 66.75,66.75c36.846008,0 66.75,-29.903992 66.75,-66.75c0,-36.846008 -29.903992,-66.749985 -66.75,-66.75z"/>
+                      </g>
+                    </svg>
+                    
+                </div>
+
+                  
+                </div>
+
+
+
+
+                <div id="dummyInfo" class="col-5">
+                  <div class="extraInfoCont">
+
+                  <div id="doubleDose">
+                    <div class="doubleCont">
+                      <div class="doubleFirstRow">
+                        <div class="needleIcon"></div>
+                        <p id="doublePerc"> 5% </p>
+                      </div>
+                      <div class="doubleSecondRow">
+                        <p> (vacunados con dos dosis)</p>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class="clickDummy">
+                     <img src="img/left24.png" alt="">
+                    <p> Haz click para obtener más información</p>
+
+                  </div>
+
+                  <div class="infoVacs">
+                    <p>Total :</p>
+                    <p id="totalVacs"></p>
+
+                  </div>
+                  
+                </div>
+
+              </div>
+            
+             </div>
+          </div>
+
+          
+        
+      </div>
+      
+    </div>
+
+
+    <!--  MAP  -->
+
+    
+    
+
+
+  
+
+  <div id="vacAdmin">
+    <h4> % vacunas administradas </h4>
+    <p> (sobre el total de las recibidas) </p>
+
+    <div id="adminBar" class="progress">
+        <div class="progress-bar" role="progressbar" style="0%;" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+
+    
+  </div>
+
+ </div>
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  
+  <script src="js/jQuery-plugin-progressbar.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+  <script src='js/jquery.keyframes.min.js'></script>
+
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>

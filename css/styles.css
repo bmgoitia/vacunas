@@ -1,0 +1,743 @@
+ 
+
+
+
+body{
+	font-family: 'Montserrat', sans-serif;
+  background-color: #E3E4E0;
+  margin: 10px;
+ }
+
+ #mainContainer{
+ 	  background-color: #c0c4c7;
+ }
+
+p,h1, h2, h3, h4, h5, h6{
+	margin-bottom: 0 !important;
+}
+
+
+#mainContainer{
+	max-width: 670px;
+	margin: 0 auto;
+}
+
+
+
+
+/* TITLE */
+
+#title{
+	padding-top: 15px;
+	padding-bottom: 10px;
+
+}
+
+#title h3{
+	text-align: center;
+	font-size: 1.5rem;
+	color: #001c4c;
+}
+
+
+
+
+/* SELECTOR & ARROW */
+
+#selCA{
+	position: relative;
+}
+
+#backArrow{
+	position: absolute;
+	left: 12px;
+	top: 5px;
+	display: none;
+}
+
+.selCont{
+	width: 65vw;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+
+
+
+/* MAIN CONTENT */
+
+#changeCont{
+	margin-top: 15px;
+}
+
+#dummy{
+	position: relative;
+}
+
+
+
+/* DUMMY MODAL */
+
+#dummyModal{
+	display: none;
+	position: absolute;
+	left: 15%;
+	top: 50px;
+}
+
+
+.dummyModalCont{
+  width: 70vw;
+  max-width: 500px;
+  background: #fff;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.dummyModalClose{
+	text-align: center;
+}
+
+.dummyModalClose span{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	color: #949596;
+	border: 1px solid #949596;
+	border-radius: 100%;
+	cursor: pointer;
+}
+
+
+.dummyModalVacItem{
+	display: flex;
+	align-items: center;
+}
+
+.dummyModalLogo{
+	width: 100px;
+	height: 50px;
+	margin-right: 12px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#vac1 .dummyModalLogo{
+	background-image: url("../img/logoPfizer.png");
+}
+
+#vac2 .dummyModalLogo{
+	background-image: url("../img/logoModerna.jpg");
+}
+
+#vac3 .dummyModalLogo{
+	background-image: url("../img/logoAstra.jpeg");
+}
+
+#vac4 .dummyModalLogo{
+	background-image: url("../img/logoJJ.png");
+}
+
+#vac5 .dummyModalLogo{
+	background-image: url("../img/logoSanofi.jpg");
+}
+
+
+
+
+
+.dummyModalBar{
+	width: 100%;
+}
+
+.progress-bar{
+    -webkit-transition: none !important;
+    transition: none !important;
+}
+
+.dummyModalBar .progress-bar{
+	background-color: #001c4c;
+}
+
+
+
+
+
+
+
+/* Main TITLE */
+
+.tabTitle{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.tabTitle h3{
+	text-align: center;
+	color: #001c4c;
+}
+
+
+
+/*  DUMMY ICON  */
+
+.interm object{
+	width: 100%;
+}
+
+
+
+/* EXTRA INFO */
+
+#dummyInfo{
+	padding-left: 0;
+	padding-right: 5px;
+}
+
+.extraInfoCont{
+	/*display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+  align-content: space-between;*/
+}
+
+
+/* DOUBLE DOSE */
+
+#doubleDose{
+	padding-top: 20px;
+  /*margin-bottom: 90px;*/
+}
+
+
+
+
+
+
+.doubleFirstRow{
+/*	display: flex;*/
+}
+
+.doubleSecondRow p{
+	text-align: center;
+}
+
+.needleIcon{
+	margin: 0 auto;
+	width: 64px;
+	height: 32px;
+  background-image: url("../img/needle32blue.png");
+  background-repeat: repeat-x;
+}
+
+#doublePerc{
+	text-align: center;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #001c4c;
+}
+
+.doubleSecondRow p{
+	color: #001c4c;
+}
+
+
+
+/* Click on dummy */
+
+.clickDummy{
+	margin-top: 20px;
+	margin-bottom: 50px;
+
+}
+
+.clickDummy p{
+	font-size: .7rem;
+	text-align: left;
+	font-style: italic;
+	color: #001c4c;
+}
+
+.clickDummy img{
+ display: inline-block;
+ width: 24px;
+ height: 24px;
+}
+
+
+
+/* PHARMA INFO */
+
+
+
+.infoVacs{
+	padding: 10px 0;
+	background-color: #364a5d;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	border: 1px solid grey;
+	border-radius: 3px;
+  -webkit-box-shadow: -7px 7px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -7px 7px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: -7px 7px 5px 0px rgba(0,0,0,0.75);
+/*	height: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-flow: wrap;
+	align-content: flex-end;
+	padding-top: 75%;*/
+}
+
+
+#totalVacs{
+	font-size: 1.4rem;
+	letter-spacing: 1.5px;
+}
+
+
+
+
+
+
+
+
+
+/* BUTTONS */
+
+.buttonCont{
+	text-align: center;
+}
+
+#mapButton{
+	display: inline-block;
+	margin-top: 30px;
+	padding: 10px 30px;
+	border: 1px solid #4A5D5D;
+	border-radius: 4px;
+	cursor: pointer;
+  color:rgb(54, 74, 93);
+	-webkit-box-shadow: 3px 3px 7px -1px rgba(74,93,93,1);
+  -moz-box-shadow: 3px 3px 7px -1px rgba(74,93,93,1);
+  box-shadow: 3px 3px 7px -1px rgba(74,93,93,1);
+}
+
+#mapButton span{
+	margin-right: 15px;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	font-weight: 500;
+
+}
+
+
+#dummyButton{
+	margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  background-image: url(../img/manIcon.png);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: center;
+  cursor: pointer;
+}
+
+
+/*  MAP  */
+
+#mapCA{
+	display: none;
+	width: 100%;
+	margin-top: 20px;
+	z-index: 50;
+}
+
+
+
+
+#mapCA object{
+	width: 100%;
+}
+
+
+
+/* MAP GRADIENT BAR */
+
+.gradientBar{
+	margin-bottom: 20px;
+}
+
+.gradientCont{
+	width: 60vw;
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+.gradient{
+	height: 20px;
+background: rgb(136,174,169);
+background: linear-gradient(90deg, rgba(136,174,169,1) 0%, rgba(0,28,76,1) 56%, rgba(0,0,0,1) 100%);
+}
+
+.gradientValues{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+/* MODAL */
+
+#modal{
+	width: 100%;
+	position: absolute;
+	top: 30vh;
+	left: 12vw;
+	display:none;
+
+}
+
+
+.modalCont{
+	width: 75%;
+	max-width: 400px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: rgba(255, 255, 255, .87);
+	border: 1px solid grey;
+	border-radius: 3px;
+	z-index: 20;
+	letter-spacing: .5px;
+	-webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+}
+
+.modalClose{
+	  position: absolute;
+    top: 1px;
+    left: 92%;
+    width: 20px;
+    height: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.modalTit{
+	    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.modalTit h3{
+	font-size: .9rem;
+	text-transform: uppercase;
+}
+
+
+/* Modal Main */
+
+.modalMain{
+	width: 100%;
+}
+
+
+.doseIcon1{
+	margin: 0 auto;
+	width: 24px;
+	height: 24px;
+  background-image: url("../img/injection24.png");
+}
+
+.doseIcon2{
+	margin: 0 auto;
+	width: 48px;
+	height: 24px;
+  background-image: url("../img/injection24.png");
+  background-repeat: repeat-x;
+}
+
+.doseIcon1Perc, .doseIcon2Perc{
+	font-size: 1.2rem;
+}
+
+
+.modalBar{
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 10px 20px;
+
+}
+
+	.modalBar .progress-bar{
+	  background-color: #364a5d;
+ }
+
+/* Modal More */
+
+
+.modalMoreBut{
+	margin-bottom: 10px;
+}
+
+
+
+
+#modalPlusButton{
+	 border: 2px solid #001c4c;
+	 background-color: #fff;
+	 font-size: 16px;
+	 height: 2.5em;
+	 width: 2.5em;
+	 border-radius: 999px;
+	 position: relative;
+	 font-size: 12px;
+	 outline: none;
+}
+
+ #modalPlusButton:after, #modalPlusButton:before {
+	 content: "";
+	 display: block;
+	 background-color: #001c4c;
+	 position: absolute;
+	 top: 50%;
+	 left: 50%;
+	 transform: translate(-50%, -50%);
+}
+
+ #modalPlusButton:before {
+	 height: 1em;
+	 width: 0.2em;
+}
+
+ #modalPlusButton:after {
+	 height: 0.2em;
+	 width: 1em;
+}
+
+
+
+
+
+
+
+
+#modalMore{
+	width: 100%;
+	margin-bottom: 10px;
+
+}
+
+.modalNameVac{
+	display: flex;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	padding-right: 3px;
+	border-bottom: 1px dashed grey;
+}
+
+.modalNameVac p{
+	margin-right: 4px;
+	font-weight: bold;
+	font-size: .8rem;
+	color: #001c4c;
+}
+
+.modalNameVac span{
+	font-size: .8rem;
+}
+
+
+
+
+
+/* RADIALS (donut charts) */
+
+#radials{
+	margin-top: 20px;
+}
+
+
+.radial {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    max-width:30%;
+    display:inline-block;
+    animation: donutfade 1s;
+}
+
+.radial h5{
+	font-size: .8rem;
+	text-align: center;
+}
+
+
+
+@keyframes donutfade {
+  /* this applies to the whole svg item wrapper */
+    0% {
+        opacity: .2;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (min-width: 992px) {
+    .svg-item {
+        width: 80%;
+    }
+}
+
+.donut-ring {
+    stroke: #EBEBEB;
+}
+
+.donut-segment {
+    transform-origin: center;
+    stroke: #001c4c;
+    animation-duration: 3s;
+}
+
+
+.donut-percent {
+    animation: donutfadelong 1s;
+}
+
+@keyframes donutfadelong {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.donut-text {
+    font-family: Arial, Helvetica, sans-serif;
+    fill: #001c4c;
+}
+
+
+.donut-label {
+    font-size: 0.28em;
+    font-weight: 700;
+    line-height: 1;
+    fill: #000;
+    transform: translateY(0.25em);
+}
+
+.donut-percent {
+    font-size: 0.5em;
+    line-height: 1;
+    transform: translateY(0.5em);
+    font-weight: bold;
+}
+
+.donut-data {
+    font-size: 0.12em;
+    line-height: 1;
+    transform: translateY(0.5em);
+    text-align: center;
+    text-anchor: middle;
+    color:#666;
+    fill: #666;
+    animation: donutfadelong 1s;
+}
+
+
+
+
+
+
+
+/*  ADMINISTRATED VACCINES  */
+
+#vacAdmin{
+	margin: 40px 40px 0;
+	padding-bottom: 30px;
+	color: #001c4c;
+}
+
+
+
+#vacAdmin h4{
+	text-align: center;
+	font-size: .8rem;
+	text-transform: uppercase;
+}
+
+#vacAdmin p{
+	text-align: center;
+	font-size: .8rem;
+}
+
+
+/* Progress bar  */
+
+#adminBar{
+	height: 40px;
+	margin-top: 20px;
+}
+
+#adminBar .progress-bar{
+	background-color: #364a5d;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 550px) { 
+
+	#modal{
+	  left: 32vw;
+  }
+
+  .modalCont {
+    width: 55%;
+  }
+
+  .modalTit h3{
+	  font-size: 1.2rem;
+  }
+
+
+  .doseIcon1{
+		width: 33px;
+		height: 33px;
+	  background-image: url("../img/injection32.png");
+  }
+
+  .doseIcon2{
+		margin: 0 auto;
+		width: 66px;
+		height: 33px;
+	  background-image: url("../img/injection32.png");
+	  background-repeat: repeat-x;
+  }
+
+	.doseIcon1Perc, .doseIcon2Perc{
+		font-size: 1.5rem;
+	}
+
+	/* Dummy size */
+
+	#dummyIcon{
+		padding-right: 10%;
+		padding-left: 10%;
+	}
+
+	/* Vacc column */
+	.infoVacs{
+		
+	}
+
+ }
