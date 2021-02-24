@@ -696,6 +696,16 @@ background: linear-gradient(90deg, rgba(136,174,169,1) 0%, rgba(0,28,76,1) 56%, 
 
 /* MEDIA QUERIES */
 
+@media (min-width: 400px) { 
+	/* DUMMY SIZE */
+	#dummyIcon{
+			padding-right: 10%;
+			padding-left: 10%;
+		}
+}
+
+
+
 @media (min-width: 550px) { 
 
 	#modal{
@@ -729,16 +739,6 @@ background: linear-gradient(90deg, rgba(136,174,169,1) 0%, rgba(0,28,76,1) 56%, 
 		font-size: 1.5rem;
 	}
 
-	/* Dummy size */
 
-	#dummyIcon{
-		padding-right: 10%;
-		padding-left: 10%;
-	}
-
-	/* Vacc column */
-	.infoVacs{
-		
-	}
 
  }
