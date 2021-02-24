@@ -193,7 +193,7 @@ p,h1, h2, h3, h4, h5, h6{
 
 #dummyInfo{
 	padding-left: 0;
-	padding-right: 5px;
+	padding-right: 15px;
 }
 
 .extraInfoCont{
@@ -702,6 +702,10 @@ background: linear-gradient(90deg, rgba(136,174,169,1) 0%, rgba(0,28,76,1) 56%, 
 			padding-right: 10%;
 			padding-left: 10%;
 		}
+
+		#vacAdmin {
+    margin: 0px 40px;
+  }
 }
 
 
