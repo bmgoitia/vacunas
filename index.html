@@ -8,7 +8,8 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <title>Covid-19 | Vacunas</title>
 </head>
@@ -57,7 +58,7 @@
   <div id="changeCont">
     <div id="dummy">
 
-          <div id="dummyModal">
+      <div id="dummyModal">
 
             <div class="dummyModalCont">
               <div class="dummyModalClose">
@@ -132,13 +133,9 @@
             
           </div>
 
-          <div id="mainTitle" class="tabTitle">
-            <h3> </h3>
-          </div>
-
-          <div id="mainInfo" class="container">
-            <div class="row">
-                <div id="dummyIcon" class="col-7">
+      <div id="mainInfo" class="container">
+         <div class="row">
+            <div id="dummyIcon" class="col-4">
                   <div class="interm">
                      <!-- <object data="dummy.svg" type="image/svg+xml"></object> -->
 
@@ -147,8 +144,8 @@
                       <g>
                         <defs>
                           <linearGradient id="statsPerc" x1="0" y1="1" x2="0" y2="0">
-                            <stop id="stop1" offset="0" stop-color="#364a5d"></stop>
-                            <stop id="stop2" offset="0" stop-color="#F2F7F7"/>
+                            <stop id="stop1" offset="0" stop-color="#8dc8f7"></stop>
+                            <stop id="stop2" offset="0" stop-color="#364a5d"/>
                           </linearGradient>
                         </defs>
 
@@ -159,54 +156,101 @@
                 </div>
 
                   
-                </div>
+            </div>
 
+            <div id="dummyInfo" class="col-8">
 
+              <div class="row">
+                <div id="mainTitle" class=" col-12 tabTitle">
+                  <h3> </h3>
+               </div>
 
+                 <div class="col-12 col-lg-6 infoBox1">
+                    <div class="info1BoxTop">
+                      <p class="Vac1">Vacunados <br> con 1 dosis</p>
+                      <h4 id="Vac1Perc"> 11% </h4>
+                      <span class="needle needle1"></span>
+                    
+                    </div>
+                    <div class="info1BoxBottom">
+                      <p class="Vac2"> Vacunados <br> con 2 dosis</p>
+                      <h4 class="Vac2Perc"> 3%</h4>
+                      <span class="needle needle2"></span>
+                      
+                    </div>
+                    <div class="moreInfo">
+                      <p id="moreInfo"> Más información</p>
+                    </div>
+                   
+                 </div>
 
-                <div id="dummyInfo" class="col-5">
-                  <div class="extraInfoCont">
-
-                  <div id="doubleDose">
-                    <div class="doubleCont">
-                      <div class="doubleFirstRow">
-                        <div class="needleIcon"></div>
-                        <p id="doublePerc"> 5% </p>
-                      </div>
-                      <div class="doubleSecondRow">
-                        <p> (vacunados con dos dosis)</p>
-                      </div>
+               <div id="dummyInfo2desk" class="col-lg-6 dummyInfo2">
+                  <div class="infoBox2">
+                    <div class="info2BoxTop">
+                      <p> Total vacunados</p>
+                      <h4 id="totalVac">48.000</h4>
+                      
                     </div>
 
-                  </div>
+                    <div class="info2BoxBottom">
+                      <p> % vacunas <br> administradas <br> <span class="minT">(sobre el total de las recibidas)</span> </p>
+                      
+                      <div id="adminBar" class="progress">
+                         <div class="progress-bar" role="progressbar" style="0%;" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      
+                    </div>
+                     
+                   </div>
+              
+                </div>
+              </div>
 
-                  <div class="clickDummy">
-                     <img src="img/left24.png" alt="">
-                    <p> Haz click para obtener más información</p>
+              
 
-                  </div>
+             
 
-                  <div class="infoVacs">
-                    <p>Total :</p>
-                    <p id="totalVacs"></p>
+               
 
-                  </div>
-                  
+               
+              
+            </div>
+
+             <div id="dummyInfo2mov" class="col-12 col-md-11 offset-md-1 dummyInfo2">
+                  <div class="infoBox2">
+                    <div class="info2BoxTop">
+                      <p> Total vacunados</p>
+                      <h4 id="totalVac">48.000</h4>
+                      
+                    </div>
+
+                    <div id="info2desk" class="info2BoxBottom">
+                      <p> % vacunas <br> administradas <br> <span class="minT">(sobre el total de las recibidas)</span> </p>
+                      
+                      <div id="adminBar" class="progress">
+                         <div class="progress-bar" role="progressbar" style="0%;" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      
+                    </div>
+                     
+                   </div>
+              
                 </div>
 
-              </div>
             
-             </div>
-          </div>
+
+
+
+
 
           
         
-      </div>
+       </div>
       
-    </div>
+     </div>
 
 
-    <!--  MAP  -->
+    <p class="credit"> Fuente: Ministerio de Sanidad </p>
 
     
     
@@ -214,16 +258,7 @@
 
   
 
-  <div id="vacAdmin">
-    <h4> % vacunas administradas </h4>
-    <p> (sobre el total de las recibidas) </p>
 
-    <div id="adminBar" class="progress">
-        <div class="progress-bar" role="progressbar" style="0%;" aria-valuemin="0" aria-valuemax="100"></div>
-    </div>
-
-    
-  </div>
 
  </div>
 

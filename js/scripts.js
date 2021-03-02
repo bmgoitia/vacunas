@@ -368,7 +368,7 @@ window.onload = function() {
 
 	/* Show Dummy Modal */
 
-	$("#dummyIcon").on("click", function(){
+	$("#moreInfo").on("click", function(){
 		$("#dummyModal").css("display", "block");
 		$("#dummyModal").css("z-index", "17");
 
@@ -525,8 +525,8 @@ function getData(value){
 /* 1- Set Title*/
 
 function setTitle(name, value){
-	$("#mainTitle h3").text(`${name}: ${value}%`);
-
+	$("#mainTitle h3").text(`${name}`);
+	$("#Vac1Perc").text(`${value}%`);
 }
 
 

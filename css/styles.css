@@ -3,10 +3,11 @@
 
 
 body{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Libre Franklin', sans-serif;
   background-color: #fff;
+  color: #2b3a48;
   margin: 0 auto;
-  max-width: 550px;
+
  }
 
  #mainContainer{
@@ -19,8 +20,8 @@ p,h1, h2, h3, h4, h5, h6{
 
 
 #mainContainer{
-	max-width: 670px;
-	margin: 0 auto;
+/*	max-width: 670px;
+	margin: 0 auto;*/
 }
 
 
@@ -29,8 +30,8 @@ p,h1, h2, h3, h4, h5, h6{
 /* TITLE */
 
 #title{
-	padding-top: 15px;
-	padding-bottom: 10px;
+	font-family: 'Oswald', sans-serif;
+	padding: 15px 10px 20px;
 
 }
 
@@ -38,6 +39,7 @@ p,h1, h2, h3, h4, h5, h6{
 	text-align: center;
 	font-size: 1.5rem;
 	color: #001c4c;
+	text-transform: uppercase;
 }
 
 
@@ -87,9 +89,11 @@ p,h1, h2, h3, h4, h5, h6{
 }
 
 
+
+
 .dummyModalCont{
   width: 70vw;
-  max-width: 500px;
+  max-width: 400px;
   background: #fff;
   margin: 0 auto;
   padding: 10px;
@@ -170,12 +174,12 @@ p,h1, h2, h3, h4, h5, h6{
 /* Main TITLE */
 
 .tabTitle{
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
+	margin-bottom: 10px;
+ }
 
 .tabTitle h3{
-	text-align: center;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #3a3a3a;
 	color: #001c4c;
 }
 
@@ -557,107 +561,6 @@ background: linear-gradient(90deg, rgba(136,174,169,1) 0%, rgba(0,28,76,1) 56%, 
 
 
 
-/* RADIALS (donut charts) */
-
-#radials{
-	margin-top: 20px;
-}
-
-
-.radial {
-    width: 100%;
-    margin-bottom: 15px;
-    margin-left: 5px;
-    max-width:30%;
-    display:inline-block;
-    animation: donutfade 1s;
-}
-
-.radial h5{
-	font-size: .8rem;
-	text-align: center;
-}
-
-
-
-@keyframes donutfade {
-  /* this applies to the whole svg item wrapper */
-    0% {
-        opacity: .2;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@media (min-width: 992px) {
-    .svg-item {
-        width: 80%;
-    }
-}
-
-.donut-ring {
-    stroke: #EBEBEB;
-}
-
-.donut-segment {
-    transform-origin: center;
-    stroke: #001c4c;
-    animation-duration: 3s;
-}
-
-
-.donut-percent {
-    animation: donutfadelong 1s;
-}
-
-@keyframes donutfadelong {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-
-.donut-text {
-    font-family: Arial, Helvetica, sans-serif;
-    fill: #001c4c;
-}
-
-
-.donut-label {
-    font-size: 0.28em;
-    font-weight: 700;
-    line-height: 1;
-    fill: #000;
-    transform: translateY(0.25em);
-}
-
-.donut-percent {
-    font-size: 0.5em;
-    line-height: 1;
-    transform: translateY(0.5em);
-    font-weight: bold;
-}
-
-.donut-data {
-    font-size: 0.12em;
-    line-height: 1;
-    transform: translateY(0.5em);
-    text-align: center;
-    text-anchor: middle;
-    color:#666;
-    fill: #666;
-    animation: donutfadelong 1s;
-}
-
-
-
-
-
-
 
 /*  ADMINISTRATED VACCINES  */
 
@@ -694,13 +597,175 @@ background: linear-gradient(90deg, rgba(136,174,169,1) 0%, rgba(0,28,76,1) 56%, 
 
 
 
+
+
+/* NEW STYLES */
+
+#dummyInfo2desk{
+	display: none;
+}
+
+#dummyInfo1 p{
+	 line-height: 1.2;
+}
+
+#dummyInfo1 h4{
+	font-size: 1.7rem;
+	/* display: flex;
+	 flex-direction: column;
+  justify-content: center;
+  align-content: center;*/
+  
+}
+
+ .infoBox1{
+ 	 margin-bottom: 20px;
+ }  
+
+ .infoBox1 h4{
+ 	 margin-top: 10px;
+ }   
+
+.info1BoxTop, .info1BoxBottom{
+	display: flex;
+  justify-content: space-between;
+}
+
+.info1BoxTop, .info2BoxTop{
+	background-color: #8dc8f7;
+}
+
+.info1BoxTop{
+	padding: 10px 5px;
+}
+
+.info2BoxTop{
+	padding: 15px 5px;
+}
+
+.info1BoxBottom, .info2BoxBottom{
+	padding: 10px 5px;
+	background-color: #fff;
+}
+
+.info1BoxTop{
+	border-left: 4px solid #364a5d;
+}   
+
+.info1BoxBottom{
+	border-left: 4px solid #c0c4c7;
+}  
+
+
+
+.Vac1,.Vac2 {
+	padding-left: 5px;
+  font-size: .9rem;
+  font-weight: 600;
+}
+
+.Vac1{
+	margin-right: 10px;
+}
+
+.needle{
+  margin-top: 10px;
+}
+
+.needle1{
+	
+	width: 64px;
+	height: 32px;
+  background-image: url("../img/needle32blue.png");
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.needle2{
+	width: 64px;
+	height: 32px;
+  background-image: url("../img/needle32blue.png");
+  background-repeat: repeat-x;
+
+}
+
+.moreInfo{
+	padding-bottom: 10px;
+	padding-right: 7px;
+	display: flex;
+  justify-content: flex-end;
+  background-color: #fff;
+  border-left: 4px solid #c0c4c7;
+}
+
+.moreInfo p{
+	padding: 5px;
+	margin-top: 10px;
+  background-color: #d2cdcd;
+  border-radius: 20px;
+	font-size: .8rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.infoBox2{
+	padding: 0 5px;
+}
+
+.info2BoxTop{
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+
+.info2BoxTop p{
+	text-transform: uppercase;
+	font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.info2BoxBottom{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.info2BoxBottom p{
+	text-transform: uppercase;
+	font-size: .9rem;
+}
+
+
+.info2BoxBottom span.minT{
+	text-transform: lowercase;
+}
+
+
+
+.credit{
+	text-align: center;
+	margin: 20px 0;
+	padding-bottom: 40px;
+	font-size: .8rem;
+}
+
+
+#dummyInfo2desk p{
+  margin-right: 10px;
+  padding-bottom: 7px;
+}
+
+
+
+
+
 /* MEDIA QUERIES */
 
 @media (min-width: 400px) { 
 	/* DUMMY SIZE */
 	#dummyIcon{
-			padding-right: 10%;
-			padding-left: 10%;
+			padding-right: 5%;
+			padding-left: 5%;
 		}
 
 		#vacAdmin {
@@ -712,8 +777,8 @@ background: linear-gradient(90deg, rgba(136,174,169,1) 0%, rgba(0,28,76,1) 56%, 
 
 @media (min-width: 550px) { 
 
-	#modal{
-	  left: 32vw;
+	#dummyModal{
+	  left: 22vw;
   }
 
   .modalCont {
@@ -745,4 +810,40 @@ background: linear-gradient(90deg, rgba(136,174,169,1) 0%, rgba(0,28,76,1) 56%, 
 
 
 
+ }
+
+
+
+ @media (min-width: 768px) { 
+  
+  #dummyModal{
+	  left: 32vw;
+  }
+
+ 	#dummyIcon{
+			padding-right: 10%;
+			padding-left: 10%;
+		}
+ }
+
+
+
+ @media (min-width: 992px) { 
+
+ 	#dummyModal{
+	  left: 38vw;
+  }
+
+ 	#dummyIcon{
+			padding-right: 10%;
+			padding-left: 10%;
+		}
+
+		#dummyInfo2desk{
+			display: block;
+		}
+
+		#dummyInfo2mov{
+			display: none;
+		}
  }
