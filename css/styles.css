@@ -635,6 +635,20 @@ background: linear-gradient(90deg, rgba(136,174,169,1) 0%, rgba(0,28,76,1) 56%, 
   justify-content: space-between;
 }
 
+
+/* Second box when below */
+
+#dummyInfo2mov .info2BoxTop{
+	 padding-left: 10px;
+	 padding-right: 15px;
+}
+
+#dummyInfo2mov .info2BoxBottom {
+    padding: 10px 10px;
+ }
+
+/* ---- */
+
 .info1BoxTop, .info2BoxTop{
 	background-color: #92C9DA;
 }
@@ -774,8 +788,18 @@ background: linear-gradient(90deg, rgba(136,174,169,1) 0%, rgba(0,28,76,1) 56%, 
 		font-size: .75rem;
 	}
 
-	#Vac1Perc, #totalVac, .infoBox1 h4 {
+	#Vac1Perc{
+		font-size: 1.35rem;
+		font-weight: 600;
+	}
+
+	#totalVac, .infoBox1 h4 {
     font-size: 1.2rem;
+  }
+
+  .moreInfo p{
+  	font-size: .65rem;
+
   }
 
 
