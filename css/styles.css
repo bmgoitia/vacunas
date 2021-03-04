@@ -644,7 +644,7 @@ background: linear-gradient(90deg, rgba(136,174,169,1) 0%, rgba(0,28,76,1) 56%, 
 }
 
 #dummyInfo2mov .info2BoxBottom {
-    padding: 10px 10px;
+    padding: 20px 10px;
  }
 
 /* ---- */
@@ -729,6 +729,13 @@ background: linear-gradient(90deg, rgba(136,174,169,1) 0%, rgba(0,28,76,1) 56%, 
 	font-size: .8rem;
   font-weight: bold;
   cursor: pointer;
+}
+
+/* Second box when aside  */
+
+#dummyInfo2desk h4.totalVac{
+	font-size: 1.7rem;
+  font-weight: 600;
 }
 
 
@@ -900,12 +907,12 @@ background: linear-gradient(90deg, rgba(136,174,169,1) 0%, rgba(0,28,76,1) 56%, 
 			padding-left: 10%;
 		}
 
-		.info1BoxTop{
-	padding: 15px 12px;
+	.info1BoxTop{
+	  padding: 15px 12px;
 	}
 
 	.info2BoxTop{
-		padding: 23px 12px;
+		padding: 20px 12px;
 	}
 
 	.info1BoxBottom, .info2BoxBottom{
