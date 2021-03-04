@@ -636,19 +636,19 @@ background: linear-gradient(90deg, rgba(136,174,169,1) 0%, rgba(0,28,76,1) 56%, 
 }
 
 .info1BoxTop, .info2BoxTop{
-	background-color: #8dc8f7;
+	background-color: #92C9DA;
 }
 
 .info1BoxTop{
-	padding: 15px 5px;
+	padding: 15px 12px;
 }
 
 .info2BoxTop{
-	padding: 15px 5px;
+	padding: 15px 12px;
 }
 
 .info1BoxBottom, .info2BoxBottom{
-	padding: 10px 5px;
+	padding: 10px 12px;
 	background-color: #fff;
 }
 
