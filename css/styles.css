@@ -677,7 +677,7 @@ background: linear-gradient(90deg, rgba(136,174,169,1) 0%, rgba(0,28,76,1) 56%, 
 
 
 .needle{
-  margin-top: 10px;
+  /*margin-top: 10px;*/
 }
 
 .needle1{
@@ -768,6 +768,43 @@ background: linear-gradient(90deg, rgba(136,174,169,1) 0%, rgba(0,28,76,1) 56%, 
 
 
 /* MEDIA QUERIES */
+
+@media (max-width: 400px) { 
+	.Vac1, .Vac2 {
+		font-size: .75rem;
+	}
+
+	#Vac1Perc, #totalVac {
+    font-size: 1.4rem;
+  }
+  .needle1{
+		width: 50px;
+		height: 25px;
+	  background-image: url("../img/needle24_blue.png");
+	  background-repeat: no-repeat;
+	  background-position: center;
+
+  }
+
+  .needle2{
+		width: 50px;
+		height: 25px;
+	  background-image: url("../img/needle24_blue.png");
+	  background-repeat: repeat-x;
+
+  }
+
+  .info2BoxTop p {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .info2BoxBottom p {
+    font-size: .7rem;
+  }
+	
+}
+
 
 @media (min-width: 400px) { 
 	/* DUMMY SIZE */
