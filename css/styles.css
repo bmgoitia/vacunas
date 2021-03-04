@@ -774,9 +774,11 @@ background: linear-gradient(90deg, rgba(136,174,169,1) 0%, rgba(0,28,76,1) 56%, 
 		font-size: .75rem;
 	}
 
-	#Vac1Perc, #totalVac {
-    font-size: 1.4rem;
+	#Vac1Perc, #totalVac, .infoBox1 h4 {
+    font-size: 1.2rem;
   }
+
+
   .needle1{
 		width: 50px;
 		height: 25px;
@@ -795,7 +797,7 @@ background: linear-gradient(90deg, rgba(136,174,169,1) 0%, rgba(0,28,76,1) 56%, 
   }
 
   .info2BoxTop p {
-    font-size: 1rem;
+    font-size: .9rem;
     font-weight: 600;
   }
 
