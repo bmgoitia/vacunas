@@ -627,7 +627,7 @@ background: linear-gradient(90deg, rgba(136,174,169,1) 0%, rgba(0,28,76,1) 56%, 
  }  
 
  #Vac1Perc, #totalVac{
- 	font-size: 2.2rem;
+ 	font-size: 1.8rem;
  } 
 
 .info1BoxTop, .info1BoxBottom{
@@ -640,15 +640,20 @@ background: linear-gradient(90deg, rgba(136,174,169,1) 0%, rgba(0,28,76,1) 56%, 
 }
 
 .info1BoxTop{
-	padding: 15px 12px;
+	padding: 15px 5px;
 }
 
 .info2BoxTop{
-	padding: 15px 12px;
+	padding: 15px 5px;
 }
 
-.info1BoxBottom, .info2BoxBottom{
-	padding: 10px 12px;
+.info1BoxBottom{
+	padding: 10px 5px;
+	background-color: #fff;
+}
+
+.info2BoxBottom{
+	padding: 10px 7px;
 	background-color: #fff;
 }
 
@@ -663,14 +668,13 @@ background: linear-gradient(90deg, rgba(136,174,169,1) 0%, rgba(0,28,76,1) 56%, 
 
 
 .Vac1,.Vac2 {
+	margin-right: 10px;
 	padding-left: 5px;
   font-size: .9rem;
   font-weight: 600;
 }
 
-.Vac1{
-	margin-right: 10px;
-}
+
 
 .needle{
   margin-top: 10px;
@@ -724,7 +728,7 @@ background: linear-gradient(90deg, rgba(136,174,169,1) 0%, rgba(0,28,76,1) 56%, 
 }
 
 .info2BoxTop p{
-	padding-top: 10px;
+	padding-top: 2px;
 	text-transform: uppercase;
 	font-size: 1.1rem;
   font-weight: 600;
@@ -793,6 +797,10 @@ background: linear-gradient(90deg, rgba(136,174,169,1) 0%, rgba(0,28,76,1) 56%, 
 	  font-size: 1.2rem;
   }
 
+  #Vac1Perc, #totalVac{
+ 	font-size: 2.2rem;
+ } 
+
 
   .doseIcon1{
 		width: 33px;
@@ -828,6 +836,19 @@ background: linear-gradient(90deg, rgba(136,174,169,1) 0%, rgba(0,28,76,1) 56%, 
 			padding-right: 10%;
 			padding-left: 10%;
 		}
+
+		.info1BoxTop{
+	padding: 15px 12px;
+	}
+
+	.info2BoxTop{
+		padding: 15px 12px;
+	}
+
+	.info1BoxBottom, .info2BoxBottom{
+		padding: 10px 12px;
+		background-color: #fff;
+}
  }
 
 

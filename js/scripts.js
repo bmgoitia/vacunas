@@ -543,7 +543,7 @@ function setTitle(name, value){
 /* 3- Set double dose perc. */
 
 function setDouble(val){
-	$("#doublePerc").text(`${val}%`);
+	$(".Vac2Perc").text(`${val}%`);
 
 }
 
@@ -585,7 +585,7 @@ function setDummyModal(pfi, mod, ast, jj, san){
 
 function setTotalVac(val){
   val = formatNumber(val);
-	$("#totalVacs").text(val);
+	$(".totalVac").text(val);
 }
 
 
