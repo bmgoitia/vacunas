@@ -784,6 +784,11 @@ background: linear-gradient(90deg, rgba(136,174,169,1) 0%, rgba(0,28,76,1) 56%, 
   margin-right: 10px;
 }
 
+.acl{
+	font-style: italic;
+	font-size: .7rem;
+}
+
 
 
 
