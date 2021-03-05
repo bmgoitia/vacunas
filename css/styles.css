@@ -792,7 +792,7 @@ background: linear-gradient(90deg, rgba(136,174,169,1) 0%, rgba(0,28,76,1) 56%, 
 
 @media (max-width: 400px) { 
 	.Vac1, .Vac2 {
-		font-size: .65rem;
+		font-size: .75rem;
 	}
 
 	#Vac1Perc{
@@ -835,6 +835,7 @@ background: linear-gradient(90deg, rgba(136,174,169,1) 0%, rgba(0,28,76,1) 56%, 
 
   .info2BoxBottom p {
     font-size: .7rem;
+    font-weight: 600;
   }
 	
 }
